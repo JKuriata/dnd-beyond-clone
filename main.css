@@ -6,6 +6,7 @@
 }
 #logo {
     justify-content: left;
+    padding-left: 1rem;
 }
 #navbar a {
     color: aliceblue;
@@ -15,6 +16,7 @@
 input {
     background-color: #242527;
     border: 0;
+    padding-left: 1.5rem;
 }
 #socials {
     padding: 20px, 20px;
@@ -24,7 +26,7 @@ input {
 }
 
 body { 
-    background-color: #242527;
+    background-image: url(Images/background_texture.png);
     color: aliceblue;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
@@ -47,15 +49,43 @@ body {
 /* Style for the text overlay */
 .text-overlay {
     position: absolute;
-    top: 20%;
-    left: 0%;
-    color: white;
-    max-width: 45%;
-    font-size: 24px;
+    top: 10%;
+    left: 1%;
+    color: aliceblue;
+    max-width: 43%;
+    font-size: 60px;
     font-weight: bold;
 }
 
 .text-overlay p {
     font-weight: lighter;
     font-size: 20px;
+}
+.text-overlay button {
+    background-color: #1579BC;
+    padding: 20px 40px;
+    border: 0px;
+    border-radius: 2.5%;
+    margin: 5px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+#black-box {
+    background-color: black;
+}
+#black-box img {
+    padding-left: 10px;
+    max-width: 24%;
+}
+#create-character {
+    color: #1579BC;
+    max-width: 14%;
+    font-size: 27px;
+    font-weight: bold;
+    position: absolute;
+    top: 85%;
+    left: 3%;
 }
